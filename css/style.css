@@ -1,0 +1,239 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+}
+
+.nav-item {
+    text-transform: uppercase;
+}
+
+.carousel-caption {
+    padding-bottom: 15% !important;
+    color: black !important;
+}
+
+.carousel-caption h5 {
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.carousel-caption h1 {
+    font-size: 80px;
+}
+
+.carousel-caption p {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    text-transform: uppercase;
+    display: inline;
+    padding: 3px;
+}
+
+
+.button{
+   margin-top: 40px;
+}
+
+#btn{
+    width: 130px;
+    height: 40px;
+    border-radius: 3px;
+    background-color: rgb(36, 36, 35);
+    color: white;
+}
+span .carousel-control-prev-icon {
+    height: 123px;
+}
+
+.title h6 {
+    margin-top: 23px;
+    font-size: 25px;
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.new-product {
+    background-color: #eeeeee;
+    padding: 10px;
+    padding-bottom: 43px;
+}
+
+.new-product .card {
+    margin: 15px 0px;
+    border: none;
+}
+
+.star {
+    margin: -10px 0px;
+}
+
+.star i {
+    font-size: 10px;
+    color: rgb(163, 118, 2);
+}
+
+.card-body {
+    border-top: 1px solid silver;
+}
+
+.price{
+    color: rgb(163, 118, 2);
+}
+
+.background {
+    background: url(../img/home_banner_image.jpg);
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.background img {
+    padding-top: 90px;
+}
+
+.background p {
+    padding-top: 10px;
+    margin: 0px 200px;
+    color: white;
+}
+
+.news {
+    margin-top: 23px;
+}
+
+.date {
+    height: 100px;
+    width: 205px;
+    border: 1px solid rgb(168, 121, 3);
+    border-radius: 18px;
+}
+
+.date p {
+    background-color: rgb(163, 118, 2);
+    height: 40%;
+    font-size: 23px;
+    color: white;
+    border-top: 1px;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+}
+
+.content {
+    margin-left: 20px;
+}
+
+.content p {
+    padding-top: 5px;
+}
+
+.Featured-Products {
+    padding-top: 32px;
+    padding: 23px;
+    background-color: #eeeeee;
+}
+
+.Featured-Products .card {
+    border: none;
+}
+
+.input-group {
+    width: 50% !important;
+}
+
+.form-control {
+    border-radius: 0px !important;
+}
+
+.Featured-Products span {
+    background-color: rgb(179, 128, 1) !important;
+    height: 50px;
+
+}
+
+.footer ul li {
+    list-style: none;
+}
+
+.last {
+    padding: 23px;
+    background-color: black;
+    color: white;
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+@media (max-width:1013px) {
+
+    .news .first,
+    .news .second {
+        width: 100%;
+    }
+
+    .news .second {
+        padding-top: 20px;
+    }
+
+    .Featured-Products .p1 {
+        width: 50%;
+    }
+
+    .goldd .p1:nth-child(odd) {
+        margin-bottom: 10px;
+    }
+    .carousel-caption {
+       height: auto !important;
+       padding-bottom: 0% !important;
+       
+    }
+}
+
+@media (max-width:800px) {
+    .background {
+        height: auto;
+    }
+
+    .background p {
+        margin: 0px;
+    }
+
+
+    .goldd .p1:nth-child(odd) {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:767px) {
+
+    .products .one,
+    .products .two,
+    .products .three,
+    .products .four {
+        width: 50%;
+    }
+
+    .new-product .p1 {
+        width: 50%;
+    }
+    .date{
+        width: 100%;
+       
+    }
+
+    
+}
+
+@media (max-width:480px) {
+    .new-product .p1 {
+        width: 100%;
+    }
+
+    .Featured-Products .p1 {
+        width: 100%;
+    }
+}
